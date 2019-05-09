@@ -1,0 +1,72 @@
+body {
+  background-color: #ffffff;
+  color: #373D3F;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+}
+
+p {
+  font-size: 100%; /* 16px */
+}
+
+nav {
+  background-color: rgba (0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  a:link { color:#0070BB; } /* unvisited */
+  a:visited { color:#0070BA; } /* visited */
+  a:hover { color:#0070BC; } /* mouse over */
+  a:active { color:#0070BD; } /* selected */
+}
+
+.logo {
+  background: #fff url(bloc-logo.png) no-repeat top left;
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+  background: #fff url(instagram-pic.jpg) no-repeat top center;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
