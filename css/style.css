@@ -1,17 +1,19 @@
 
 body {
-  background-color: #ffffff;
+  background-color: #fff4ed;
   color: #373D3F;
   font-size: 16px;
   line-height: normal;
 }
 
 h1 {
-  font-size: 2em; /* 32px */
+  font-size: 32px; /* 32px */
+  line-height: 100%
 }
 
 p {
-  font-size: 100%; /* 16px */
+  font-size: 16px; /* 16px */
+  line-height: normal;
 }
 
 nav {
@@ -30,14 +32,15 @@ a {
 }
 
 .logo {
-  background: #fff url(bloc-logo.png) no-repeat top left;
+  background: #000 url(images/bloc-logo.png) no-repeat top left;
   margin: 20px;
   width: 100px;
 }
 
 .large-pic {
-  width: 100%;
-  background: #fff url(instagram-pic.jpg) no-repeat top center;
+  width: 80%;
+  background: #fff
+  background-image: url(images/instagram-pic.jpg) no-repeat top center;
 }
 
 .medium-pic {
