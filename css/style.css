@@ -8,12 +8,12 @@ body {
 
 h1 {
   font-size: 32px; /* 32px */
-  line-height: 100%
+  line-height: 160%
 }
 
 p {
   font-size: 16px; /* 16px */
-  line-height: normal;
+  line-height: 140%;
 }
 
 nav {
