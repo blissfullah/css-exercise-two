@@ -14,10 +14,12 @@ h1 {
 p {
   font-size: 16px; /* 16px */
   line-height: 140%;
+  margin-bottom: 14px;
 }
 
 nav {
-  background-color: rgba (0,0,0,.5);
+  /* choose any color here, as long as the contrast works with the text color */
+  background-color: #eee3dc;
   float: left;
   position: fixed;
   width: 100%;
@@ -71,6 +73,6 @@ article {
 }
 
 .container {
-  margin: 0 auto;
+  margin: auto;
   width: 50%;
 }
