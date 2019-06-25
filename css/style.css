@@ -4,17 +4,40 @@ body {
   color: #373D3F;
   font-size: 16px;
   line-height: normal;
+  font-family: sans-serif;
 }
 
 h1 {
-  font-size: 32px; /* 32px */
-  line-height: 160%
+  font-size: 2em;
+  line-height: 145%
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height:  155%
+  font-style: italic;
+  color: #232729
+  text-align:center;
 }
 
 p {
-  font-size: 16px; /* 16px */
+  font-size: 1em;
   line-height: 140%;
   margin-bottom: 14px;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+author {
+  font-weight: bold;
+  font-size: 1em
 }
 
 nav {
@@ -26,11 +49,11 @@ nav {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   a:link { color:#0070BB; } /* unvisited */
-  a:visited { color:#0070BA; } /* visited */
-  a:hover { color:#0070BC; } /* mouse over */
-  a:active { color:#0070BD; } /* selected */
+  a:visited { color:#2E00FB; } /* visited */
+  a:hover { color:#6E00FB; } /* mouse over */
+  a:active { color:#91259F; } /* selected */
 }
 
 .logo {
@@ -42,7 +65,8 @@ a {
 .large-pic {
   width: 80%;
   background: #fff
-  background-image: url(images/instagram-pic.jpg) no-repeat top center;
+  background-image: url(images/instagram-pic.jpg)
+  background-position: center;
 }
 
 .medium-pic {
